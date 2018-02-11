@@ -6,7 +6,11 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
+Vue.use(router)
 
+import Axios from 'axios'
+Axios.defaults.baseURL = 'http://rapapi.org/mockjsdata/31586'
+Vue.prototype.$axios = Axios
 
 import './assets/css/common.css'
 Vue.use(ElementUI)

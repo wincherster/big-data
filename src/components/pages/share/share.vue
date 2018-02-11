@@ -1,20 +1,21 @@
-<style scoped>
+<style lang="less" scoped>
 
 </style>
 
 <template>
-
-  <div>我是hello world</div>
-    
+  <div>
+    数据共享-板块
+  </div>
 </template>
 
 <script>
 export default {
-  data() {
+  data(){
     return {
-      
-    };
+
+    }
   }
-};
+}
 </script>
+
 
